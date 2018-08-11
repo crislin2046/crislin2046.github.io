@@ -16,3 +16,7 @@ img {
 img, p {
   max-width: 518.15px;
 }
+
+p {
+  text-align: center;
+}
