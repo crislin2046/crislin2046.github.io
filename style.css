@@ -12,3 +12,7 @@ body {
 img {
   filter: grayscale(1.0);
 }
+
+img, p {
+  max-width: 666.7px;
+}
