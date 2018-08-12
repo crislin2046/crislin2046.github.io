@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <meta charset=utf8>
 <meta name=viewport content="width=device-width, initiali-scale=1.0">
-<link rel=preload as=image href=crisstringfellow_03.jpg>
 <link rel=stylesheet href=style.css>
 <title>Cris Stringfellow</title>
-<i>Cris Stringfellow</i>
-<img src=crisstringfellow_03.jpg width=70%>
-<p>[<a href=/about.html>About</a>]</p>
+<body class=opaque>
+  <i>Cris Stringfellow</i>
+  <img src=crisstringfellow_03.jpg width=70%>
+  <script>
+    document.images[0].onload = () => {
+      document.body.classList.remove("opaque");
+    });
+  </script>
+  <p>[<a href=/about.html>About</a>]</p>
+</body>
