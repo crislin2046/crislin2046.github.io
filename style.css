@@ -27,6 +27,8 @@ p {
   text-align: center;
 }
 
-a, i {
+p, i {
   background: #eeeeeeaa;
 }
+
+#space { pointer-events: none;
