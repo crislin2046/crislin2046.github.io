@@ -1,9 +1,13 @@
+:root {
+  --hotpink: #ff0080;
+}
+
 :root, body {
   height: 100%;
   background: linear-gradient(to right top, red, orange , yellow, green, cyan, blue, violet, red); 
 }
 
-body, a { color: hotpink; }
+body, a { color: var(--hotpink); }
 
 .opaque { opacity: 0; }
 
@@ -28,7 +32,8 @@ p {
 }
 
 p, i {
-  background: #eeeeeeaa;
+  padding: 1em;
+  background: #ffffff22;
 }
 
 #space { pointer-events: none;
