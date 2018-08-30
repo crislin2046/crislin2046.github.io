@@ -3,6 +3,8 @@
   background: linear-gradient(to right top, red, orange , yellow, green, cyan, blue, violet, red); 
 }
 
+body, a { color: hotpink; }
+
 .opaque { opacity: 0; }
 
 body {
