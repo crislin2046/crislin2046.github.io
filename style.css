@@ -26,3 +26,7 @@ img, p {
 p {
   text-align: center;
 }
+
+p, a {
+  background: #eeeeee88;
+}
